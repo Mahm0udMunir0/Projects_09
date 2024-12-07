@@ -1,0 +1,30 @@
+.main {
+    background: rgba(255, 255, 255, 0.2); /* Semi-transparent white */
+    padding: 40px;
+    margin: 10px;
+    border-radius: 15px;
+    backdrop-filter: blur(10px); /* Apply blur effect */
+    border: 1px solid rgba(255, 255, 255, 0.5); /* Optional: adds a subtle border */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Optional: adds shadow for depth */
+    height: 567px;
+    width: 600px;
+    position: relative;
+    top: 10px;
+    left: 250px;
+}
+.inp-text{
+    width: 300px !important;
+}
+.a-po{
+    text-decoration: none;
+}
+.card-val{
+    position: relative;
+    left: 60px;
+}
+.colpo{
+    
+    position: relative;
+    top:330px;
+    right: 180px
+}

@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0  ;
+
+}
+body{
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(45deg, #f6f6f7, #f1f0f1, #ffffff, #ffffff);
+    background-size: 400% 400%;
+}
+.main {
+    background: rgba(255, 255, 255, 0.2); /* Semi-transparent white */
+    padding: 40px;
+    border-radius: 15px;
+    backdrop-filter: blur(10px); /* Apply blur effect */
+    border: 1px solid rgba(255, 255, 255, 0.5); /* Optional: adds a subtle border */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Optional: adds shadow for depth */
+    height: 550px;
+    width: 600px;
+} 
+.devlo{
+    font-weight: bold;
+}
+.inp-text {
+    width: 250px !important; 
+}
+.file-upload{
+    display: none;
+}

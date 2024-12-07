@@ -1,0 +1,81 @@
+:root {
+    --light-bg: #f0f0f0;
+    --white: #ffffff;
+    --black: #000000;
+    --box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+body{
+    background-color: var(--light-bg) !important;
+
+}
+
+.con-home{
+    
+    padding: 20px !important;
+    text-align: center !important;
+    width: 500px !important;
+    position: relative;
+    top: 40px;
+    border-radius: 5px;
+
+}
+.profile{
+    padding: 20px !important;
+    background-color: var(--white) !important;
+    box-shadow: var(--box-shadow) !important;
+    text-align: center !important;
+    width: 500px !important;
+    border-radius: 5px;
+    height: 500px !important;
+
+}
+img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom:5px ;
+}
+.btn{
+    cursor: pointer !important;
+    width: 150px;
+    height: 50px;
+    margin-right: 10px;
+    padding: 12px 14px !important;
+    font-size: 18px !important;
+    color: var(--black) !important;
+    margin: 10px 0 !important;
+    background-color: var(--light-bg) !important;
+    font-weight: bolder;
+
+}
+.update-btn{
+    position: relative;
+    top: 20px !important;
+    background-color: #0A58CA !important;
+    color: white !important;
+    left: 80px;
+}
+.delete-btn{
+    position: relative;
+    top: 100px !important;
+    right: 74px;
+    background-color: #B32B38 !important;
+    color: white !important;
+
+}
+p{
+    position: relative;
+    top :160px;
+    text-align: center;
+    
+}
+p a {
+    word-spacing: 3px !important;
+    text-decoration: none !important;
+}
+p a:hover {
+    word-spacing: 5px !important;
+    text-decoration: underline !important;
+    color: red;
+}

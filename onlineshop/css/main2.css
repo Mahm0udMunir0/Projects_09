@@ -1,0 +1,11 @@
+.card{
+    float: left !important;
+    margin-top : 20px !important;
+    margin-left: 60px !important;
+    margin-right: 10px !important;
+
+}
+
+.card img {
+    width: 100% ;
+    height: 200px;}
